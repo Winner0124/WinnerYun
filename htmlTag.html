@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Demonstration of common HTML5 tags" />
+    <link rel="stylesheet" href="../assets/styles/styles.css" />
+    <title>HTML5 Tags Example</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML5 Tags Overview</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#content">Main Content</a></li>
+          <li><a href="#media">Media Section</a></li>
+          <li><a href="#form">Forms</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="content">
+        <h2>Introduction to HTML5</h2>
+        <article>
+          <header>
+            <h3>Article Header</h3>
+            <p>
+              <time datetime="2024-09-24">September 24, 2024</time>
+            </p>
+          </header>
+          <p>
+            HTML5 introduces new structural tags such as
+            <mark>&lt;header&gt;</mark>
+            ,
+            <mark>&lt;footer&gt;</mark>
+            ,
+            <mark>&lt;section&gt;</mark>
+            , and
+            <mark>&lt;article&gt;</mark>
+            .
+          </p>
+        </article>
+      </section>
+
+      <section id="media">
+        <h2>Media Content</h2>
+
+        <figure>
+          <img src="example-image.jpg" alt="Sample Image" width="300" />
+          <figcaption>This is an image with a caption</figcaption>
+        </figure>
+
+        <audio controls>
+          <source src="example-audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+
+ 
+        <video controls width="400">
+          <source src="example-video.mp4" type="video/mp4" />
+          <track
+            src="subtitles_en.vtt"
+            kind="subtitles"
+            srclang="en"
+            label="English"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="form">
+        <h2>HTML5 Form Elements</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" />
+
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="colors">Choose a Color:</label>
+          <input list="colors" id="color" name="color" />
+          <datalist id="colors">
+            <option value="Red"></option>
+            <option value="Blue"></option>
+            <option value="Green"></option>
+          </datalist>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Graphics and Interactivity</h2>
+
+        <canvas
+          id="myCanvas"
+          width="400"
+          height="200"
+          style="border: 1px solid #000000"
+        ></canvas>
+        <script>
+          const canvas = document.getElementById("myCanvas");
+          const ctx = canvas.getContext("2d");
+          ctx.fillStyle = "blue";
+          ctx.fillRect(50, 50, 150, 100); 
+        </script>
+
+        <details>
+          <summary>More about HTML5</summary>
+          <p>
+            HTML5 provides powerful APIs like Web Storage, Web Workers, and
+            more.
+          </p>
+        </details>
+
+        <p>
+          HTML5 is
+          <mark>important</mark>
+          for modern web development.
+        </p>
+
+        <dialog id="infoDialog">
+          <p>This is a dialog box!</p>
+          <button onclick="document.getElementById('infoDialog').close();">
+            Close
+          </button>
+        </dialog>
+        <button onclick="document.getElementById('infoDialog').showModal();">
+          Open Dialog
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 HTML5 Example Page</p>
+    </footer>
+  </body>
+</html>
