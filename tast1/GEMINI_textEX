@@ -1,0 +1,8 @@
+CSS: Cascading Style Sheets
+CSS (Cascading Style Sheets) is a programming language used to style HTML elements. It controls the appearance of a web page, including colors, fonts, layout, and more. By separating the content (HTML) from the presentation (CSS), it makes web design more efficient, maintainable, and reusable.
+
+Role of CSS in Web Development
+  -Styling: CSS defines the visual appearance of a web page, making it visually appealing and user-friendly.
+  -Separation of Concerns: By separating content from presentation, CSS promotes better organization and maintainability of code.
+  -Responsiveness: CSS can be used to create responsive designs that adapt to different screen sizes and devices.
+  -Cross-Browser Compatibility: CSS ensures consistent styling across different web browsers.
