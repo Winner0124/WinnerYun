@@ -1,0 +1,11 @@
+CSS styles can be applied to HTML elements in three ways:
+
+  Inline CSS: Directly within the HTML element's style attribute.
+  Internal CSS: Within a <style> tag in the <head> section.
+  External CSS: In a separate .css file linked to the HTML document.
+
+Each method has its advantages and disadvantages:
+  
+  Inline CSS: Quick and easy for one-off changes but can make code less readable.
+  Internal CSS: Improves code organization but is not suitable for large projects.
+  External CSS: Best for large projects, separates content from presentation, and allows for reusability.
