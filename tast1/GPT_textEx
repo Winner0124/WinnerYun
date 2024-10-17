@@ -1,0 +1,8 @@
+CSS and Its Role in Web Development
+CSS (Cascading Style Sheets) is a stylesheet language used to define the presentation of HTML documents. CSS controls the visual layout, design, and formatting of web pages, separating content (HTML) from design (CSS). This allows developers to maintain consistency, improve user experience, and easily make changes to the website's appearance without altering the content structure.
+
+In web development, CSS plays a key role in:
+
+-Styling: Defining colors, fonts, layouts, spacing, etc.
+-Responsive design: Ensuring web pages adapt to different screen sizes (e.g., mobile, tablet, desktop).
+-Separation of concerns: Allowing the separation of content (HTML) from presentation (CSS), making the code cleaner and easier to maintain.
